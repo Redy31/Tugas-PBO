@@ -11,12 +11,12 @@ import java.util.Scanner;
 public class Latihan4Praktikum {
    public static void main(String[] args){
 Scanner scan = new Scanner(System.in).useDelimiter("\n");
-System.out.println("Apakah anda mahasiswa ITS Mandiri + Muhammad Redy Fadli");
+System.out.println("Apakah anda mahasiswa ITS Mandiri, Muhammad Redy Fadli ? ( Y jika setuju)");
 String jawaban = scan.next();
 if ("Y".equals(jawaban)){
-System.out.println("Selamat berjuang di        ");
+System.out.println("Selamat berjuang di ITS Mandiri, Muhammad Redy Fadli ");
 }else{
-System.out.println("Selamat datang di     ");
+System.out.println("Selamat datang di ITS Mandiri, Muhammad Redy Fadli ");
 }
 }
 }
